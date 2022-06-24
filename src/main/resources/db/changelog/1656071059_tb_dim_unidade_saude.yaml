@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1656071059_tb_dim_unidade_saude
+      author: Dev
+      changes:
+        - addColumn:
+            tableName: tb_dim_unidade_saude
+            columns:
+            - column:
+                name: st_enviado_impulso
+                type: BOOLEAN
+                defaultValueBoolean: false
+                constraints:
+                  nullable: false  
