@@ -9,9 +9,9 @@
 
 Copiar arquivo "env.example" para ".env" e preencher com as variáveis presentes no arquivo
 
-# Execução
+## Execução
 
-Linux/Macos
+Linux/macOS
 
 ```sh
 ./gradlew bootRun
