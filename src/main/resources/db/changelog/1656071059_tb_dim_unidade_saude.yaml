@@ -7,7 +7,7 @@ databaseChangeLog:
             tableName: tb_dim_unidade_saude
             columns:
             - column:
-                name: st_enviado_impulso
+                name: st_enviado_impulsogov
                 type: BOOLEAN
                 defaultValueBoolean: false
                 constraints:
