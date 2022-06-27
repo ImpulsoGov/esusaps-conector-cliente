@@ -11,4 +11,4 @@ databaseChangeLog:
                 type: BOOLEAN
                 defaultValueBoolean: false
                 constraints:
-                  nullable: false  
+                  nullable: false
