@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1656071041_spring_batch
+      author: Dev
+      changes:
+        - sqlFile:
+            path: 1656071041_spring_batch.sql
+            relativeToChangelogFile: true

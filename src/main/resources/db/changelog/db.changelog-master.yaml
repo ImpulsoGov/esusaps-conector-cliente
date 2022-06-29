@@ -1,3 +1,5 @@
 databaseChangeLog:
   - include:
+        file: db/changelog/1656071041_spring_batch.yaml
+  - include:
       file: db/changelog/1656071059_tb_dim_unidade_saude.yaml
